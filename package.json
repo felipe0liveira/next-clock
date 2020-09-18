@@ -1,17 +1,32 @@
 {
   "name": "clocky",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "next ./src"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "Just a simple Clock using Next.js",
+  "author": "felipe0liveira",
   "license": "ISC",
+  "scripts": {
+    "dev": "next ./src/"
+  },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "next": "^9.5.3",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+    "react-dom": "^16.13.1",
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "digital",
+    "clock",
+    "next",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe0liveira/next-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felipe0liveira/next-clock/issues"
+  },
+  "homepage": "https://github.com/felipe0liveira/next-clock#readme"
 }
